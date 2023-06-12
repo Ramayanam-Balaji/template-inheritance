@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block title %}
+    <title>prabhas</title>
+    {% endblock %}
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+</head>
+<body>
+    <button type="button" class="btn btn-success">Success</button>
+    <h1>this is prabhas</h1>
+    {% block body_block %}
+    {% endblock %}
+
+
+
+
+
+
+
+
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+    
+</body>
+</html>
